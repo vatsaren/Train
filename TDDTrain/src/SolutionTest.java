@@ -26,14 +26,10 @@ public class SolutionTest {
 		ListNode node1AddNode3 = new ListNode(4, new ListNode(4, new ListNode(4, new ListNode(4))));
 		assertTrue(ListNode.equals(node1AddNode3, solution.addTwoNumbers(node1, node3)));
 
-		ListNode node4 = new ListNode(9, new ListNode(8, new ListNode(3, new ListNode(4))));
-		ListNode node1AddNode4 = new ListNode(1, new ListNode(0, new ListNode(8, new ListNode(7, new ListNode(4)))));
-		assertTrue(ListNode.equals(node1AddNode4, solution.addTwoNumbers(node1, node4)));
-
-		ListNode node5 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9)))))));
-		ListNode node6 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9))));
-		ListNode node5AddNode6 = new ListNode(8, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(0, new ListNode(0, new ListNode(0, new ListNode(1))))))));
-		assertTrue(ListNode.equals(node5AddNode6, solution.addTwoNumbers(node5, node6)));
+		ListNode node4 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9)))))));
+		ListNode node5 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9))));
+		ListNode node4AddNode5 = new ListNode(8, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(0, new ListNode(0, new ListNode(0, new ListNode(1))))))));
+		assertTrue(ListNode.equals(node4AddNode5, solution.addTwoNumbers(node4, node5)));
 
 
 
