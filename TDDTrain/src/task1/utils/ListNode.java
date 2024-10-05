@@ -1,4 +1,4 @@
-package utils;
+package task1.utils;
 
 public class ListNode {
 	public int val;

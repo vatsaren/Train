@@ -1,4 +1,6 @@
-import utils.ListNode;
+package task1;
+
+import task1.utils.ListNode;
 
 public class Solution {
 

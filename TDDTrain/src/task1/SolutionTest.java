@@ -1,7 +1,8 @@
-import org.junit.Test;
-import utils.ListNode;
+package task1;
 
-import static org.junit.Assert.*;
+import org.junit.Test;
+import task1.utils.ListNode;
+
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
