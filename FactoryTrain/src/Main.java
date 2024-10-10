@@ -23,7 +23,7 @@ public class Main {
 	private static String getContext() throws IOException {
 		try {
 			Properties props = new Properties();
-			props.load(new FileInputStream(new File("src/FactoryTrain/config/config.ini")));
+			props.load(new FileInputStream(new File("FactoryTrain/src/config/config.ini")));
 			return props.getProperty("context").toString();
 		}
 		catch (IOException | NullPointerException e) {
