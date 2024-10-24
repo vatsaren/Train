@@ -1,0 +1,24 @@
+https://leetcode.com/problems/longest-common-prefix/description/
+
+Напишите функцию для поиска самой длинной общей строки префикса среди массива строк.
+
+Если общего префикса нет, вернуть пустую строку "".
+
+
+
+Example 1:
+
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
+Example 2:
+
+Input: strs = ["dog","racecar","car"]
+Output: ""
+Explanation: There is no common prefix among the input strings.
+
+
+Ограничения:
+
+1 <= strs.length <= 200
+0 <= strs[i].length <= 200
+strs[i]состоит только из строчных английских букв.
